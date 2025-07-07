@@ -34,16 +34,6 @@
     border-radius: 5px;
     background-color: transparent;
 }
-.searchbaricon {
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-     pointer-events: none;
-     opacity: 0.8;
-}
 img {
     display: block;
     margin: 20px auto;
@@ -94,7 +84,16 @@ img {
     color: blanchedalmond;
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 100px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    margin: 0;
+}
+.videoheading1 {
+    color: blanchedalmond;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 70;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
     text-align: center;
     margin: 0;
@@ -160,20 +159,4 @@ img {
     background-blend-mode: darken;
     min-height: 30vh;
     padding: 40px 20px;
-}
-/* frieren website tabs */
-.frierenwebsite {
-    width: 100%;
-    min-height: 100vh;
-    background-image: url(images/background2.png);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    overflow-x: hidden; 
-}
-.center-image{
-  display: flex;
-  justify-content: center; /* horizontal centering */
-  align-items: center;
-  height: 100vh;     
 }
